@@ -3,6 +3,7 @@ package arangoctl
 import (
 	"context"
 	"fmt"
+        "crypto/tls"
 	driver "github.com/arangodb/go-driver"
 	"github.com/arangodb/go-driver/http"
 	log "github.com/sirupsen/logrus"
