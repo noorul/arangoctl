@@ -43,7 +43,7 @@ func NewClient(config ClientConfig) (*Client, error) {
 	// create and store the arango client
 	conn, err := http.NewConnection(http.ConnectionConfig{
 		Endpoints: config.Endpoints,
-	        TLSConfig: &tls.Config{InsecureSkipVerify: true}
+	        TLSConfig: &tls.Config{InsecureSkipVerify: true},
         })
 	if err != nil {
 		return nil, err
