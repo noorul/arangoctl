@@ -14,7 +14,7 @@ Similar to topicctl, we wanted to manage our Arango objects in a declarative way
 
 You can set it up in one of the following ways:
 
-1. go get github.com/psykidellic/arangoctl/cmd/arangoctl (tested with only Go 1.16)
+1. go get github.com/galaxyse/arangoctl/cmd/arangoctl (tested with only Go 1.16)
 2. Clone the repo and run: go build cmd/arangoctl
 
 ## Quick Tour

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/psykidellic/arangoctl/cmd/arangoctl/subcmd"
+	"github.com/galaxyse/arangoctl/cmd/arangoctl/subcmd"
 )
 
 var (

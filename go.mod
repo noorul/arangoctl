@@ -1,4 +1,4 @@
-module github.com/psykidellic/arangoctl
+module github.com/galaxyse/arangoctl
 
 go 1.16
 

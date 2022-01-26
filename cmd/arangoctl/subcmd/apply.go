@@ -3,7 +3,7 @@ package subcmd
 import (
 	"context"
 	"fmt"
-	"github.com/psykidellic/arangoctl/pkg/arangoctl"
+	"github.com/galaxyse/arangoctl/pkg/arangoctl"
 	"os"
 	"path/filepath"
 	"sort"
