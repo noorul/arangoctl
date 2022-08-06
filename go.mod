@@ -5,7 +5,6 @@ go 1.18
 require (
 	github.com/arangodb/go-driver v1.3.3
 	github.com/arangodb/go-velocypack v0.0.0-20200318135517-5af53c29c67e // indirect
-	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/ghodss/yaml v1.0.0
 	github.com/google/addlicense v0.0.0-20200817051935-6f4cd4aacc89 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
