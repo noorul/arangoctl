@@ -20,3 +20,6 @@
 
 # sometimes we build locally so just ignore the output
 go_build_main_go
+
+# goreleaser output
+dist
