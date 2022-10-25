@@ -23,13 +23,13 @@ builds:
 
 dockers:
 - image_templates:
-    - "ghcr.io/galaxyse/arangoctl:{{ .Version }}-amd64"
+    - "ghcr.io/noorul/arangoctl:{{ .Version }}-amd64"
   use: buildx
   dockerfile: Dockerfile
   build_flag_templates:
     - "--platform=linux/amd64"
 - image_templates:
-    - "ghcr.io/galaxyse/arangoctl:{{ .Version }}-arm64"
+    - "ghcr.io/noorul/arangoctl:{{ .Version }}-arm64"
   use: buildx
   goarch: arm64
   dockerfile: Dockerfile
@@ -37,7 +37,7 @@ dockers:
     - "--platform=linux/arm64"
 
 docker_manifests:
-- name_template: ghcr.io/galaxyse/arangoctl:{{ .Version }}
+- name_template: ghcr.io/noorul/arangoctl:{{ .Version }}
   image_templates:
-  - ghcr.io/galaxyse/arangoctl:{{ .Version }}-amd64
-  - ghcr.io/galaxyse/arangoctl:{{ .Version }}-arm64
+  - ghcr.io/noorul/arangoctl:{{ .Version }}-amd64
+  - ghcr.io/noorul/arangoctl:{{ .Version }}-arm64
