@@ -3,7 +3,7 @@ module github.com/galaxyse/arangoctl
 go 1.18
 
 require (
-	github.com/arangodb/go-driver v1.4.0
+	github.com/arangodb/go-driver v1.5.2
 	github.com/ghodss/yaml v1.0.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/sirupsen/logrus v1.9.0
